@@ -1,0 +1,22 @@
+{
+  "name": "javascript-in-the-loop",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenatti/javascript-in-the-loop.git"
+  },
+  "author": {
+    "name": "Maicol Zenatti",
+    "email": "maicol@pigmentolab.com"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vitest": "^3.2.3",
+    "jsdom": "^26.1.0"
+  }
+}
