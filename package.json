@@ -9,7 +9,8 @@
   },
   "author": {
     "name": "Maicol Zenatti",
-    "email": "maicol@pigmentolab.com"
+    "email": "maicol@pigmentolab.com",
+    "url": "https://zenatti.dev"
   },
   "scripts": {
     "test": "vitest"
