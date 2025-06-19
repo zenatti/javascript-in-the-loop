@@ -53,7 +53,15 @@ describe('eventLoop', () => {
 
         vi.runAllTimers();
 
-        expect(result).toEqual([ ... ]);
+        expect(result).toEqual([
+            'fnA',
+            'fnD',
+            'fnE-1',
+            'fnC',
+            'fnE-2',
+            'fnB',
+            'fnF',
+        ]);
 
         vi.useRealTimers();
     });
